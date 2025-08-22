@@ -1,0 +1,74 @@
+SQuAD Myanmar Dataset - Comparative Analysis Report
+============================================================
+
+Note: 'answer_start' column excluded from analysis as it won't be used
+
+DATASET COMPARISON
+------------------------------
+Dataset Sizes:
+  Train: 87596
+  Validation: 10570
+
+Missing Values Comparison:
+  context:
+    Train: 0
+    Validation: 0
+  answers:
+    Train: 0
+    Validation: 0
+  context_my:
+    Train: 0
+    Validation: 0
+  id:
+    Train: 0
+    Validation: 0
+  answer_my:
+    Train: 0
+    Validation: 0
+  question_my:
+    Train: 0
+    Validation: 0
+  answers_my:
+    Train: 0
+    Validation: 0
+  question:
+    Train: 0
+    Validation: 0
+  title:
+    Train: 0
+    Validation: 0
+
+Duplicate Analysis:
+  Train duplicates: 0
+  Validation duplicates: 0
+
+Myanmar Text Coverage Comparison:
+  context_my:
+    Train: 100.00%
+    Validation: 100.00%
+  answer_my:
+    Train: 100.00%
+    Validation: 100.00%
+  question_my:
+    Train: 100.00%
+    Validation: 100.00%
+  answers_my:
+    Train: 100.00%
+    Validation: 100.00%
+
+Text Length Statistics Comparison:
+  context:
+    Train - Mean: 754.35, Median: 693.00
+    Validation - Mean: 778.97, Median: 703.00
+  answers:
+    Train - Mean: 18.00, Median: 13.00
+    Validation - Mean: 17.25, Median: 13.00
+  context_my:
+    Train - Mean: 796.81, Median: 732.00
+    Validation - Mean: 814.40, Median: 741.00
+  question_my:
+    Train - Mean: 61.24, Median: 58.00
+    Validation - Mean: 61.88, Median: 59.00
+  question:
+    Train - Mean: 59.23, Median: 56.00
+    Validation - Mean: 59.97, Median: 57.00

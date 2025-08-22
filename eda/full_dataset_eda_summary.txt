@@ -1,0 +1,100 @@
+SQuAD Myanmar Dataset - Full Dataset EDA Summary Report
+======================================================================
+
+DATASET OVERVIEW
+--------------------
+Train dataset size: 87596 rows
+Validation dataset size: 10570 rows
+Total combined size: 98166 rows
+Note: 'answer_start' column excluded from analysis as it won't be used
+
+COLUMNS
+--------------------
+Train columns (excluding answer_start):
+  - id
+  - title
+  - context
+  - question
+  - answers
+  - context_my
+  - question_my
+  - answer_my
+  - answers_my
+
+Validation columns (excluding answer_start):
+  - id
+  - title
+  - context
+  - question
+  - answers
+  - context_my
+  - question_my
+  - answer_my
+  - answers_my
+
+MISSING VALUES
+--------------------
+Train dataset:
+
+Validation dataset:
+
+TEXT LENGTH STATISTICS
+--------------------
+context - Train:
+  Mean: 754.35
+  Median: 693.00
+  Min: 151
+  Max: 3706
+context - Validation:
+  Mean: 778.97
+  Median: 703.00
+  Min: 157
+  Max: 4063
+
+question - Train:
+  Mean: 59.23
+  Median: 56.00
+  Min: 1
+  Max: 270
+question - Validation:
+  Mean: 59.97
+  Median: 57.00
+  Min: 12
+  Max: 197
+
+context_my - Train:
+  Mean: 796.81
+  Median: 732.00
+  Min: 39
+  Max: 3825
+context_my - Validation:
+  Mean: 814.40
+  Median: 741.00
+  Min: 51
+  Max: 4460
+
+question_my - Train:
+  Mean: 61.24
+  Median: 58.00
+  Min: 1
+  Max: 286
+question_my - Validation:
+  Mean: 61.88
+  Median: 59.00
+  Min: 9
+  Max: 233
+
+MYANMAR TEXT COVERAGE
+--------------------
+context_my - Train: 87596/87596 (100.0%)
+context_my - Validation: 10570/10570 (100.0%)
+
+question_my - Train: 87596/87596 (100.0%)
+question_my - Validation: 10570/10570 (100.0%)
+
+answer_my - Train: 87595/87596 (100.0%)
+answer_my - Validation: 10570/10570 (100.0%)
+
+answers_my - Train: 87596/87596 (100.0%)
+answers_my - Validation: 10570/10570 (100.0%)
+
